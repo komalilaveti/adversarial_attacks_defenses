@@ -1,0 +1,40 @@
+body {
+    background: url(bg.jpeg);
+    background-size: cover;
+  }
+  .title {
+    width: 47%;
+    float: left;
+    text-align: left;
+    color: #fff;
+    font-size: 60px;
+    margin: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(255, 255, 255, 0.1);
+    padding: 2vw;
+  }
+  .title button {
+    width: 12vw;
+    background: linear-gradient(
+      to left,
+      rgb(255, 85, 0),
+      rgb(242, 141, 90)
+    );
+    /* background: linear-gradient(217deg, rgb(244, 112, 3), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(105, 245, 105, 0.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(41, 150, 252, 0.8), rgba(0,0,255,0) 70.71%); */
+    border-radius: 10px;
+
+    border: none;
+    padding: 15px 8px;
+  }
+  .title button:hover {
+    cursor: pointer;
+  }
+  .title button a {
+    text-decoration: none;
+    color: #ffffffff;
+    /* font-weight: 700; */
+    font-size: 20px;
+    display: block;
+  }

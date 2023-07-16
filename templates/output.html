@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='output.css') }}"
+    />
+    <title>Output</title>
+  </head>
+  <body>
+    <h1>Output</h1>
+    <div class="trans">
+    <img src="data:image/png;base64,{{ img_base64 }}" alt="Input Image">
+  </div>
+  </body>
+</html>

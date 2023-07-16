@@ -1,0 +1,8 @@
+body {
+    background: url(bg.jpeg);
+    background-size: cover;
+  }
+  h1{
+    color: #ffff;
+    text-transform: uppercase;
+  }
