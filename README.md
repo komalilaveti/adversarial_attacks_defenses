@@ -1,5 +1,5 @@
 # adversarial_attacks_defenses
-**Abstract**
+**Abstract**<br>
 Artificial intelligence (AI) and deep learning (DL) techniques are widely used in various fields such as image classification, object detection, speech recognition, NLP etc. On the other hand, these models especially deep neural networks can easily be fooled by different adversarial attacks. Adversarial attacks involve adding small perturbations to inputs with the goal of getting a machine learning or deep learning model to misclassifying the output. Hence, they bring serious security risks to deep-learning-based systems. So, it is extremely important to provide robustness to deep learning algorithms against these adversaries. In general, adversarial attacks are happened by generating adversarial examples. Adversarial examples are that which may be imperceptible to the human eye, but can lead the model to misclassify the output. In this paper, some of the methods for generating adversarial examples like Fast Gradient Sign Method (FGSM) and Carlini and Wagner (C&W) attacks and few defending methods like adversarial training, autoencoder and a proposed model to be used.
 <img width="565" alt="image" src="https://github.com/komalilaveti/adversarial_attacks_defenses/assets/109876090/5543ef18-bcb7-4729-8e95-c6f18b288767">
 #Methodology
